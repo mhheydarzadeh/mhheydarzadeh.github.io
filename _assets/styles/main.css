@@ -1,0 +1,496 @@
+/*!*************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/navigationlink.scss ***!
+  \*************************************************************************************************************************/
+.sidebar-layout nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition: all 0.25s;
+}
+
+.sidebar-layout nav a:hover {
+  color: rgb(120, 120, 120);
+}
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Styles/sidebar.scss ***!
+  \******************************************************************************************************************/
+.sidebar-layout {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sidebar-layout nav {
+  display: flex;
+  flex: 1;
+  padding: 40px 32px 36px 20px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar-layout nav .container-link-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.sidebar-layout nav .container-link-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 12px;
+  margin: 0px;
+}
+
+.sidebar-layout nav li {
+  list-style-type: none;
+}
+
+.elm-spacer-nav {
+  height: 32px;
+}
+
+.st-elm-bullet {
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.2s;
+}
+
+.bullet-default {
+  width: 4px;
+  height: 4px;
+  background-color: #D0D0D0;
+}
+
+.container-progress-scroll-vertical {
+  position: absolute;
+  top: 52px;
+  left: 32px;
+  width: 1px;
+  height: 200px;
+  background-color: #F0F0F0;
+}
+
+.container-progress-scroll-vertical .elm-progressbar {
+  width: 1px;
+  height: 0%;
+  background-color: black;
+}
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/card.scss ***!
+  \***************************************************************************************************************/
+.st-elm-card {
+  background-color: rgba(248, 250, 251, 0.9);
+  flex: 0 0 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 428px;
+  padding: 12px;
+  transition: all 0.2s;
+}
+
+.st-elm-card--onhover {
+  background-color: rgba(252, 252, 252, 0.9);
+  box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.st-elm-card .img-bg-card {
+  height: 220px;
+  background-color: gray;
+  transition: all 0.2s;
+}
+
+.st-elm-card--onhover .img-bg-card {
+  opacity: 0.8;
+}
+
+.st-elm-card .container-txt-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0px;
+  padding: 0px 8px;
+}
+
+.st-elm-card .txt-title-card {
+  color: rgb(0, 0, 0);
+}
+
+.st-elm-card .txt-projecttype-card {
+  color: rgb(149, 171, 197);
+}
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/resume.scss ***!
+  \*****************************************************************************************************************/
+#resume-scroll-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 480px;
+  padding: 24px 32px;
+  background-color: rgba(248, 250, 251, 0.9);
+  overflow-y: auto;
+}
+
+#resume-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+#resume-scroll-container .container-resume-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#resume-scroll-container .container-resume-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 520px;
+}
+
+#resume-scroll-container .container-txt-bullet-circle {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/footer.scss ***!
+  \*****************************************************************************************************************/
+.container-section#footer {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+.container-section#footer .st-txt-paragraph-tiny {
+  color: rgb(149, 171, 197);
+}
+/*!*********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/bgelements.scss ***!
+  \*********************************************************************************************************************/
+.container-global-bg-vector {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-global-bg-vector #container-vector-pos-bottom-right {
+  position: absolute;
+  bottom: 96px;
+  right: 0px;
+}
+
+.container-global-bg-vector #container-vector-pos-top-left {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
+  \***************************************************************************************************************/
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.container-navlink {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.container-navlink-bulletpoint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 24px;
+}
+
+.container-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 128px 0px;
+}
+
+.container-section .container-section-fullwidth {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px;
+}
+
+.container-section .container-section-withpadding {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 128px 0px 240px;
+}
+
+.container-button-row {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.container-title-button-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-card-horizontal {
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  padding: 32px 128px 32px 240px;
+  gap: 20px;
+}
+
+.container-card-horizontal::-webkit-scrollbar {
+  display: none;
+}
+
+.container-txt-row {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.container-txt-bullet-circle {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0px;
+  padding-left: 16px;
+}
+
+.st-txt-heading-hidden {
+  display: inline;
+  position: fixed;
+  top: -512px;
+  left: 0px;
+}
+
+.st-txt-heading-1 {
+  margin: 0px;
+  font-family: Raleway;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.st-txt-heading-2 {
+  margin: 0px;
+  font-family: Raleway;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.st-txt-heading-3 {
+  margin: 0px;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.st-txt-heading-4 {
+  margin: 0px;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.st-txt-heading-5 {
+  margin: 0px;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+.st-txt-subtitle {
+  margin: 0px;
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.st-txt-paragraph-default {
+  margin: 0px;
+  font-family: PlusJakartaSans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.st-txt-paragraph-strong {
+  margin: 0px;
+  font-family: PlusJakartaSans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.st-txt-paragraph-tiny {
+  margin: 0px;
+  font-family: PlusJakartaSans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.st-txt-paragraph-tiny-strong {
+  margin: 0px;
+  font-family: PlusJakartaSans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.st-txt-button-primary {
+  display: inline-block;
+  font-family: PlusJakartaSans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.st-txt-button-secondary {
+  display: inline-block;
+  font-family: PlusJakartaSans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.st-txt-button-tertiary {
+  display: inline-block;
+  font-family: PlusJakartaSans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.st-elm-button-primary {
+  display: inline-flex;
+  gap: 8px;
+  padding: 12px 24px;
+  text-decoration: none;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid transparent;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.st-elm-button-secondary {
+  display: inline-flex;
+  gap: 8px;
+  padding: 12px 24px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.st-elm-button-tertiary {
+  display: inline-flex;
+  gap: 8px;
+  padding: 4px 0px;
+  text-decoration: none;
+  background-color: transparent;
+  border: 0px solid transparent;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.st-button * {
+  transition: all 0.2s;
+}
+
+.button-shrink-left {
+  padding-left: 16px;
+}
+
+.button-shrink-right {
+  padding-right: 16px;
+}
+
+.button-shrink-both {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.has-sep-bottom {
+  border-bottom: 1px solid rgb(240, 240, 240);
+}
+
+.main-card-effect {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}

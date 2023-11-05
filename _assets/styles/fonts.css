@@ -1,0 +1,257 @@
+/* PlusJakartaSans - Bold */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/_assets/fonts/PlusJakartaSans-Bold.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - BoldItalic */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/_assets/fonts/PlusJakartaSans-BoldItalic.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - ExtraBold */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/_assets/fonts/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - ExtraBoldItalic */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: italic;
+  font-weight: 800;
+  src: url('/_assets/fonts/PlusJakartaSans-ExtraBoldItalic.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - ExtraLight */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/_assets/fonts/PlusJakartaSans-ExtraLight.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - ExtraLightItalic */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: italic;
+  font-weight: 200;
+  src: url('/_assets/fonts/PlusJakartaSans-ExtraLightItalic.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - Italic */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/_assets/fonts/PlusJakartaSans-Italic.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - Light */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/_assets/fonts/PlusJakartaSans-Light.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - LightItalic */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: italic;
+  font-weight: 300;
+  src: url('/_assets/fonts/PlusJakartaSans-LightItalic.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - Medium */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/_assets/fonts/PlusJakartaSans-Medium.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - MediumItalic */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/_assets/fonts/PlusJakartaSans-MediumItalic.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - Regular */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/_assets/fonts/PlusJakartaSans-Regular.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - SemiBold */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/_assets/fonts/PlusJakartaSans-SemiBold.ttf') format('truetype');
+}
+
+/* PlusJakartaSans - SemiBoldItalic */
+@font-face {
+  font-family: 'PlusJakartaSans';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/_assets/fonts/PlusJakartaSans-SemiBoldItalic.ttf') format('truetype');
+}
+
+
+
+/* Raleway - Black */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/_assets/fonts/Raleway-Black.ttf') format('truetype');
+}
+
+/* Raleway - BlackItalic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 900;
+  src: url('/_assets/fonts/Raleway-BlackItalic.ttf') format('truetype');
+}
+
+/* Raleway - Bold */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/_assets/fonts/Raleway-Bold.ttf') format('truetype');
+}
+
+/* Raleway - BoldItalic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/_assets/fonts/Raleway-BoldItalic.ttf') format('truetype');
+}
+
+/* Raleway - ExtraBold */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/_assets/fonts/Raleway-ExtraBold.ttf') format('truetype');
+}
+
+/* Raleway - ExtraBoldItalic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 800;
+  src: url('/_assets/fonts/Raleway-ExtraBoldItalic.ttf') format('truetype');
+}
+
+/* Raleway - ExtraLight */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/_assets/fonts/Raleway-ExtraLight.ttf') format('truetype');
+}
+
+/* Raleway - ExtraLightItalic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 200;
+  src: url('/_assets/fonts/Raleway-ExtraLightItalic.ttf') format('truetype');
+}
+
+/* Raleway - Italic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/_assets/fonts/Raleway-Italic.ttf') format('truetype');
+}
+
+/* Raleway - Light */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/_assets/fonts/Raleway-Light.ttf') format('truetype');
+}
+
+/* Raleway - LightItalic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  src: url('/_assets/fonts/Raleway-LightItalic.ttf') format('truetype');
+}
+
+/* Raleway - Medium */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/_assets/fonts/Raleway-Medium.ttf') format('truetype');
+}
+
+/* Raleway - MediumItalic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 500;
+  src: url('/_assets/fonts/Raleway-MediumItalic.ttf') format('truetype');
+}
+
+/* Raleway - Regular */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/_assets/fonts/Raleway-Regular.ttf') format('truetype');
+}
+
+/* Raleway - SemiBold */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/_assets/fonts/Raleway-SemiBold.ttf') format('truetype');
+}
+
+/* Raleway - SemiBoldItalic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 600;
+  src: url('/_assets/fonts/Raleway-SemiBoldItalic.ttf') format('truetype');
+}
+
+/* Raleway - Thin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/_assets/fonts/Raleway-Thin.ttf') format('truetype');
+}
+
+/* Raleway - ThinItalic */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 100;
+  src: url('/_assets/fonts/Raleway-ThinItalic.ttf') format('truetype');
+}
